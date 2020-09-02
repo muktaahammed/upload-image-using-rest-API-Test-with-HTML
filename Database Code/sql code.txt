@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `user_table` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_image` varchar(200) NOT NULL,
+  `user_name` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
